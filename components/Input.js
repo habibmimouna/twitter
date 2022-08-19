@@ -3,7 +3,7 @@ import { EmojiHappyIcon, PhotographIcon } from "@heroicons/react/outline";
 export default function Input() {
   return (
     <div className="flex border-b border-gray-200 p-3 space-x-3">
-        <img src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" alt="user-img" className="h-11 w-11 rounded-full cursor-pointer hover:brightness-95"/>
+        <img src="https://avatars.githubusercontent.com/u/71052435?v=4" alt="user-img" className="h-11 w-11 rounded-full cursor-pointer hover:brightness-95"/>
         <div className="w-full divide-y divide-gary-200">
             <div className="">
                 <textarea className="w-full border-none focus:ring-0 text-lg placeholder-gray-700 tracking-wide min-h-[50px] text-gray-700" rows="2" placeholder="what's happening ?"></textarea>
